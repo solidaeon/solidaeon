@@ -1,0 +1,259 @@
+/* General styles */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFCDB2;
+    color: #6D6875;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(109, 104, 117, 0.1);
+    display: flex;
+}
+
+/* Left column styles */
+.left-column {
+    width: 30%;
+    padding: 40px;
+    background-color: #FFCDB2;
+}
+
+.name {
+    font-family: 'Anton', sans-serif;
+    font-size: 48px;
+    line-height: 1.2;
+    margin: 0 0 30px 0;
+    color: #6D6875;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+/* Download button styles */
+.download-btn {
+    display: inline-block;
+    background-color: #FFB4A2;
+    color: #6D6875;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.download-btn:hover {
+    background-color: #E5989B;
+}
+
+/* Right column styles */
+.right-column {
+    width: 70%;
+    padding: 40px;
+    background-color: white;
+}
+
+.section h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #FFB4A2;
+}
+
+/* Skills section */
+.skill-bar {
+    background-color: #FFCDB2;
+    height: 24px;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-top: 8px;
+}
+
+.skill-progress {
+    height: 100%;
+    background-color: #FFB4A2;
+}
+
+/* Work Experience styles */
+.experience-card {
+    background-color: #E5989B;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 2px 4px rgba(109, 104, 117, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.experience-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(109, 104, 117, 0.15);
+}
+
+.experience-card .company {
+    font-size: 22px;
+    color: #6D6875;
+    margin: 0 0 10px 0;
+}
+
+.experience-card .job-title {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 0 5px 0;
+    color: #FFCDB2;
+}
+
+.experience-card .year {
+    font-size: 16px;
+    color: #B5838D;
+    margin: 0 0 15px 0;
+}
+
+.experience-card .description {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #6D6875;
+}
+
+/* Responsive design adjustments */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    
+    .left-column, .right-column {
+        width: 100%;
+        padding: 30px;
+    }
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(109, 104, 117, 0.1);
+    display: flex;
+}
+
+/* Left column styles */
+.left-column {
+    width: 30%;
+    padding: 40px;
+    background-color: #FFCDB2;
+}
+
+.name {
+    font-family: 'Anton', sans-serif;
+    font-size: 48px;
+    line-height: 1.2;
+    margin: 0 0 30px 0;
+    color: #6D6875;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+/* Download button styles */
+.download-btn {
+    display: inline-block;
+    background-color: #FFB4A2;
+    color: #6D6875;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.download-btn:hover {
+    background-color: #E5989B;
+}
+
+/* Right column styles */
+.right-column {
+    width: 70%;
+    padding: 40px;
+    background-color: white;
+}
+
+.section h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #FFB4A2;
+}
+
+/* Skills section */
+.skill-bar {
+    background-color: #FFCDB2;
+    height: 24px;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-top: 8px;
+}
+
+.skill-progress {
+    height: 100%;
+    background-color: #FFB4A2;
+}
+
+/* Work Experience styles */
+.experience-card {
+    background-color: #E5989B;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 2px 4px rgba(109, 104, 117, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.experience-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(109, 104, 117, 0.15);
+}
+
+.experience-card .company {
+    font-size: 22px;
+    color: #6D6875;
+    margin: 0 0 10px 0;
+}
+
+.experience-card .job-title {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 0 5px 0;
+    color: #FFCDB2;
+}
+
+.experience-card .year {
+    font-size: 16px;
+    color: #B5838D;
+    margin: 0 0 15px 0;
+}
+
+.experience-card .description {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #6D6875;
+}
+
+/* Responsive design adjustments */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    
+    .left-column, .right-column {
+        width: 100%;
+        padding: 30px;
+    }
+}
