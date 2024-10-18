@@ -1,0 +1,50 @@
+name:
+  firstName: Julius
+  middleName:
+  lastName: Sediolano
+  suffix:
+address:
+  street: cooper
+  city: quezon
+  province: metro manila
+  country: philippines
+contactDetails:
+  - contact: +639985649416
+    type: mobile
+  - contact: julius.sediolano@gmail.com
+    type: email
+education:
+  - institution: The University of Manila
+    degree: Bachelor of Science in Computer Science
+    year: 2002
+  - institution: Foo
+    degree: Bachelor of Science in Computer Science
+    year: 2002
+work:
+  - company: Deltek System Philppines
+    role: Senior Pricipal Devops Engineer
+    yearFrom: 2022
+    yearTo: 
+    description:
+    - foo
+  - company: Deltek System Philppines
+    role: Senior Pricipal Devops Engineer
+    yearFrom: 2022
+    yearTo: 
+    description:
+    - foo
+  - company: Deltek System Philppines
+    role: Senior Pricipal Devops Engineer
+    yearFrom: 2022
+    yearTo: 
+    description:
+    - foo
+  - company: Deltek System Philppines
+    role: Senior Pricipal Devops Engineer
+    yearFrom: 2022
+    yearTo: 
+    description:
+    - foo
+skills:
+  - name: Kubernetes
+    prof-pct: 70
